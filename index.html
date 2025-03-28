@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Markdown Preview Tool</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Markdown Live Editor</h1>
+  </header>
+
+  <main class="maincontainer">
+    <section class="input-box">
+      <label for="mdText">Enter Markdown</label>
+      <textarea id="mdText" placeholder="Write your markdown here..."></textarea>
+      <button id="btnReset">Reset</button>
+    </section>
+    <section class="output-box">
+      <h2>Preview Output</h2>
+      <div id="resultArea"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
